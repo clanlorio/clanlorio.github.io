@@ -17,7 +17,9 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 ### Noto Emojis / Blob Emojis
 
-[blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community. ![:blobsmiley:](https://clanlorio.github.io/blobs/blobsmiley.png ":blobsmiley:")
+[blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community.
+
+![:blobsmiley:](https://clanlorio.github.io/blobs/blobsmiley.png ":blobsmiley:")
 
 ### Minecraft font skull
 
