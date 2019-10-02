@@ -13,10 +13,10 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 - http://www.famfamfam.com/lab/icons/silk/
 - https://github.com/markjames/famfamfam-silk-icons
 
-### noto emojis / blobs.gg
+### Noto Emojis / Blob Emojis
 
 [blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community.
 
-### minecraft font skull
+### Minecraft font skull
 
-the skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`.
+The skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`.
