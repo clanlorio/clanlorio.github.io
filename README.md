@@ -8,15 +8,15 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 ### Silk Icons
 
-[Mark James](https://github.com/markjames/)'s amazing 16x16 icon set, silk icons. You might know the icons from their usage in garry's mod or roblox studio.
+[Mark James](https://github.com/markjames/)'s amazing 16x16 icon set, silk icons. You might know the icons from their usage in garry's mod or roblox studio. ![:wrench:](https://clanlorio.github.io/silkicons/wrench.png ":silkwrench:")
 
 - http://www.famfamfam.com/lab/icons/silk/
 - https://github.com/markjames/famfamfam-silk-icons
 
 ### Noto Emojis / Blob Emojis
 
-[blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community.
+[blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community. ![:blobsmiley:](https://clanlorio.github.io/blobs/blobsmiley.png ":blobsmiley:")
 
 ### Minecraft font skull
 
-The skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`.
+The skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`. ![:skull:](https://clanlorio.github.io/assets/skull.png ":skull:")
