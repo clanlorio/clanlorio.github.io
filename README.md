@@ -13,9 +13,9 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 - http://www.famfamfam.com/lab/icons/silk/
 - https://github.com/markjames/famfamfam-silk-icons
 
-### noto blobs / blobs.gg
+### noto emojis / blobs.gg
 
-[blobs.gg/](https://blobs.gg/) is a 
+[blobs.gg](https://blobs.gg/) is a very handy website featuring hundreds of "blob" emojis, google's noto emoji project given new life because of [discord](discordapp.com)'s community.
 
 ### minecraft font skull
 
