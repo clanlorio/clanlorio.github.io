@@ -8,7 +8,9 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 ### Silk Icons
 
-[Mark James](https://github.com/markjames/)'s amazing 16x16 icon set, silk icons. You might know the icons from their usage in garry's mod or roblox studio. ![:wrench:](https://clanlorio.github.io/silkicons/wrench.png ":silkwrench:")
+[Mark James](https://github.com/markjames/)'s amazing 16x16 icon set, silk icons. You might know the icons from their usage in garry's mod or roblox studio.
+
+![:wrench:](https://clanlorio.github.io/silkicons/wrench.png ":silkwrench:")
 
 - http://www.famfamfam.com/lab/icons/silk/
 - https://github.com/markjames/famfamfam-silk-icons
