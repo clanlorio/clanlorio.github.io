@@ -27,8 +27,11 @@ body {
   flex: 1 0 auto;
 }
 #content {
-  flex: 1 0 auto;
+  flex: 1 1 auto;
   padding: 1em;
+  width: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 #left {
   margin: 0;
