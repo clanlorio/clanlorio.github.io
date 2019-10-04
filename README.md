@@ -25,4 +25,4 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 The skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`.
 
-<img src="https://clanlorio.github.io/assets/skull.png" width="16px" alt=":skull:" title=":skull:">
+<img src="https://clanlorio.github.io/assets/skull.png" width="32px" alt=":skull:" title=":skull:">
