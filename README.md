@@ -10,7 +10,7 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 [Mark James](https://github.com/markjames/)'s amazing 16x16 icon set, silk icons. You might know the icons from their usage in garry's mod or roblox studio.
 
-<img src="https://clanlorio.github.io/silkicons/wrench.png" width="16px" alt=":silkwrench:" title=":silkwrench:">
+<img src="https://clanlorio.github.io/silkicons/wrench.png" alt=":silkwrench:" title=":silkwrench:">
 
 - http://www.famfamfam.com/lab/icons/silk/
 - https://github.com/markjames/famfamfam-silk-icons
@@ -25,4 +25,4 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 The skull icon was taken from [minecraft](minecraft.net)'s font, the equivalent character for `☠`.
 
-<img src="https://clanlorio.github.io/assets/skull.png" width="32px" alt=":skull:" title=":skull:">
+<img src="https://clanlorio.github.io/assets/skull.png" alt=":skull:" title=":skull:">
