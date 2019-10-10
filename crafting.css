@@ -10,7 +10,7 @@
   margin-bottom: 13px;
   margin-top: 13px;
   padding: 13px;
-  width: 300px;
+  width: 250px;
   background: #c6c6c6;
   border-color: #373737 #fff #fff #373737;
   border-style: solid;
@@ -35,7 +35,7 @@
   flex-wrap: wrap;
 }
 
-.recipe-item {
+.recipe-item, .output {
   width: 32px;
   height: 32px;
   background-color: #8B8B8B;
@@ -44,18 +44,17 @@
   border-width: 2px;
 }
 
-.recipe-item:hover {
+.recipe-item:hover, .output:hover {
   background-color: #DDDDDD;
-}
-
-.arrow {
-
 }
 
 @media (max-width: 400px) {
   .crafting-holder {
-    width: auto;
+    display: inline-flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: unset;
+    height: 250px;
   }
   .arrow {
     -ms-transform: rotate(90deg); /* IE */

@@ -23,16 +23,18 @@ homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects t
 
 ### Minecraft Font Skull
 
-The skull icon was taken from [minecraft](minecraft.net)'s [font](https://minecraft.gamepedia.com/Language#Font), the equivalent character for `☠`, colored `&7` or `§7` ingame. (`#AAAAAA` and `#2A2A2A`)
+The skull icon was manually recreated from the [minecraft](minecraft.net)'s [font](https://minecraft.gamepedia.com/Language#Font)'s equivalent character for `☠`, colored `&7` or more accurately `§7` ingame. (`#AAAAAA` and `#2A2A2A`)
 
 <img src="https://clanlorio.github.io/assets/skull.png" width="16px" alt=":skull:" title=":skull:">
 
-### The idea behind crafting.css
+### An idea, minecraft-textures, and a font file walk into a bar..
 
-Credit goes to [destruc7i0n](https://github.com/destruc7i0n) for the the idea behind recreating minecraft's crafting in css and html for the purpose of displaying crafting recipes.
+Credit goes to [destruc7i0n](https://github.com/destruc7i0n) for..
 
+* The the idea behind recreating minecraft's crafting in html/css for the purpose of displaying crafting recipes.
+<br>
 To be specific, the "Crafting Area" section on [crafting.thedestruc7i0n.ca](https://crafting.thedestruc7i0n.ca/)
 
-### minecraft-assets
+* minecraft-textures ([npm package](https://www.npmjs.com/package/minecraft-textures) / [repostiory](https://github.com/destruc7i0n/minecraft-textures)) which is a wonderful collection of all of the exact assets I needed, including some such as renders of the heads and blocks in the inventory that other similar packages didn't have. And credit to [minecraft](minecraft.net) for the assets themselves of course.
 
-Thank the wonderful [PrismarineJS](https://github.com/PrismarineJS) crew for the very helpful [minecraft-assets](https://github.com/PrismarineJS/minecraft-assets) package!
+* A .woff font file containing the basic minecraft font.
