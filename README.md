@@ -31,9 +31,7 @@ The skull icon was manually recreated from the [minecraft](minecraft.net)'s [fon
 
 Credit goes to [destruc7i0n](https://github.com/destruc7i0n) for..
 
-* The the idea behind recreating minecraft's crafting in html/css for the purpose of displaying crafting recipes.
-<br>
-To be specific, the "Crafting Area" section on [crafting.thedestruc7i0n.ca](https://crafting.thedestruc7i0n.ca/)
+* The the idea behind recreating minecraft's crafting in html/css for the purpose of displaying crafting recipes. To be specific, the "Crafting Area" section on [crafting.thedestruc7i0n.ca](https://crafting.thedestruc7i0n.ca/)
 
 * minecraft-textures ([npm package](https://www.npmjs.com/package/minecraft-textures) / [repostiory](https://github.com/destruc7i0n/minecraft-textures)) which is a wonderful collection of all of the exact assets I needed, including some such as renders of the heads and blocks in the inventory that other similar packages didn't have. And credit to [minecraft](minecraft.net) for the assets themselves of course.
 
