@@ -5,15 +5,16 @@
 
 .crafting {
   display: inline-block;
-  padding: 13px;
-  background: #c6c6c6;
-  border-color: #373737 #fff #fff #373737;
-  border-style: solid;
-  border-width: 2px;
+  padding: 10px;
+  margin: 23px;
+  background-color: #c6c6c6;
   color: #404040;
   font-family: 'Minecraft';
   font-size: 14px;
   line-height: 20px;
+  letter-spacing: 1px;
+  border: 10px solid transparent;
+  border-image: url("./assets/wdonut.png") 10 / 10px 10px 10px 10px / 10px 10px 10px 10px round;
 }
 
 .crafting span:first-child {
@@ -31,30 +32,82 @@
 .recipe-grid {
   padding: 0;
   margin: 0;
-  width: 96px;
+  width: 108px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.recipe-item, .output {
+.recipe-item {
+  width: 36px;
+  height: 36px;
+}
+
+.item {
   width: 32px;
   height: 32px;
+}
+
+.output-item {
+  width: 48px;
+  height: 48px;
+}
+
+.recipe-item, .output-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #8B8B8B;
   border-color: #373737 #fff #fff #373737;
   border-style: solid;
   border-width: 2px;
 }
 
-.recipe-item:hover, .output:hover {
+.recipe-item:hover, .output-item:hover {
   background-color: #DDDDDD;
+}
+
+.item {
+  margin: auto;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+.tooltip {
+  display: none;
+  color: #fff;
+  text-align: center;
+  background-image: url("./assets/tbackground.png");
+  background-color: transparent;
+  border: 6px solid transparent;
+  border-image: url("./assets/tdonut.png") 6 / 6px 6px 6px 6px / 6px 6px 6px 6px round;
+  padding: 0;
+  font-family: 'Minecraft';
+  font-size: 16px;
+  word-spacing: 4px;
+  white-space: nowrap;
+  line-height: 20px;
+  text-shadow: 2px 2px 0 #3f3f3f;
+  pointer-events: none;
+  z-index: 99;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.recipe-item:hover .tooltip {
+  display: inline-block !important;
+}
+
+.output-item:hover .tooltip {
+  display: inline-block !important;
 }
 
 .arrow {
   margin: 13px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   .crafting-table {
     flex-direction: column;
     justify-content: space-around;
@@ -63,5 +116,11 @@
     -ms-transform: rotate(90deg); /* IE */
     -webkit-transform: rotate(90deg); /* Safari & Outdated Chrome */
     transform: rotate(90deg);
+  }
+}
+
+@-moz-document url-prefix() {
+  .tooltip {
+    margin-top: -90px;
   }
 }
