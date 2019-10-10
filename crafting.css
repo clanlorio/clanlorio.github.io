@@ -3,7 +3,7 @@
   src: url('./assets/Minecraft.woff') format('woff');
 }
 
-.generic-crafting {
+.crafting {
   display: inline-block;
   padding: 13px;
   background: #c6c6c6;
@@ -16,7 +16,7 @@
   line-height: 20px;
 }
 
-.generic-crafting span:first-child {
+.crafting span:first-child {
   display: block;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@
 }
 
 @media (max-width: 400px) {
-  .crafting-holder {
+  .crafting-table {
     flex-direction: column;
     justify-content: space-around;
   }
