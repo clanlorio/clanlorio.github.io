@@ -1,11 +1,51 @@
 <!doctype html>
 <html lang="en">
+<!--
+
+       ,,╓,,
+    ,@▓▓▓▓▓▓▓▓▓╖                            ╓▓▓▓▓
+   @▓▓▓▓▓▓▓▓▓▓▓▓▓╖                         ╓▓▓▓▓▓▓
+ ╓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╖                 ,     ▓▓▓▓▓▓▓`
+╓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓b       ,µq╖   ,╢▒    ╟▓▓▓▓▓▓▓[
+╫▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓@     å╣╢╣  ,╓╫▒▒@@@@▓▓▓▓▒▓▓▓╣
+╟▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓Ñ    ╢╢╢╢╣╣╢╢╣▒▒╫╣╢▓▓▓▓▓▒▓▓▓╣
+]▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓,  ╫╢╢╢╢╢╢╢╢╣▓▓███████▓▓▓▓[
+ ╫▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓W  ╫╢╢╢╢╢╣▓▓▀     ▀███▓▓▓[
+  ╫▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╖ `╨▓╢╢▓█▓       ╫▓▓▓▓▓
+   ╟▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓W  ╟╣╢╣▓       ▒▒▓▓▓▓
+    ╙▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╢╣╢╫▓▄    ▄██▓▓▓┘
+     `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒╢▓▀╬╬╣╣▓▓█▓▓▓
+       ╙▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▀╢▒▒▒▒▒▒▒▒▒╜╢▒▒▒▓▓▓▓
+       æp╣▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╜`  ,║▒╣▒▒▒╣▒░ ,▒▒▒╜╠▓▓
+       ╙▓▓@▒▓▓▓▓▓▓▓▓▓▓╜` ,╓@▓▓╣╢╣▒▒▒▒▒╣▒╢╫▓▓@ ╙▓
+         `╫▓▓▓▓▓▓▓▓▓▓@╓  ╙╨▓▓▓╢╢╢▒▒▒▒▒▒▒▒▓▓▓▓▓╖ ▒
+         `╨HW╢╢╢▓▓▓▓▓▓▓▓▓@, '╙╜""░╢▒▒▒▒▒▒▒▓▓▓╢╢▒ ▒
+             ╙╜╬╬▓▓▓▓▓▓▓▓▓▓▓▓@@m@@║╣▒▒▒▒▒▒▒▓╣┘  ░ ▒
+                   ,╟▓▓▓▓▓▓▓▓▓╢╢╣▒▒▒▒▒▒▒▒▒▒▒╣╖   ░ ┐
+                 ,@▓▓▓▓▓▓▓▓▓▓╢╢╢╣╣▒▒▒▒▒▒▒▒▒▒▒╢▓╖  ░',,,,,,,,,,,,,,,,,,,,.........
+                ╓▓▓▓▓▓▓▓▓▓▓▓╣╣▓▓╢╣▒▒▒▒▒▒▒▒▒▒▒▒╢╢W  ░░,
+               ┌▓▓▓▓▓▓▓▓▓▓▓╢▓▓▓▓╢╣▒▒▒▒▒▒▒▒▒▒▒╢╢╢╣  ▒╓,░
+               ╫▓▓▓▓▓▓▓▓▓╢▓▓▓▓` ╢╢╢╣╣▓▓▓▓▓╣╣╢╢╢╢'   `▒░`
+              ]▓▓▓▓▓▓▓▓╣▓▓▓▓╜   ╢╢╢╢╢╣ ▓▓▓▓╣╢╢╢╣
+             g▓▓▓▓▓▓▓▓▓▓▓▓╝    ┌╣╢╢╢╢[ ╟▓▓▓▓╢╢╢╢[
+          ╓@▓▓▓▓▓▓▓▓▓▓▓╝`      ╟╢╢╢╢╢╣]╣╜▓▓╣╢╢╢╢╣
+         ╫▓▓▓▓▓▓ÑÑ╜╨╣          ╙╢╢╢╢╢╬ `  ▓▓╣╢╢╣┘
+                                ▓▓▓▓▓▓   ┌▓▓▓▓▓`
+                                ╫▓▓▓▓┘  ,▓▓▓╜
+                                 ╟▓▓▓  ]▓▓╩
+                                  ▓▓▓ ╓▓▓╝
+                                  ▓▓▓ ╟▓╜
+                                  ╟▓▓`
+                                   ▓▓╣
+                                    ╙╜
+-->
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./basic.css">
   <link rel="icon" type="image/png" href="./assets/skull.png" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
   <title>Community Revolution Update</title>
   <meta name="author" content="https://github.com/06000208">
   <meta name="description" content="The Community Revolution Update">
@@ -13,17 +53,15 @@
 </head>
 
 <body>
-  <div id="header">
+  <div class="space-between">
+    <h2>The Community Revolution Update</h2>
+    <span class="date">2019/10/10<br>yyyy/mm/dd</span>
   </div>
-  <div id="main">
-    <div id="left"></div>
-    <div id="content">
-      <h2>The Community Revolution Update</h2>
-      <p>ahh, it's nice to have a whole web page for a change! no 2000 character limit, no needing to use tricks like the :nothing: emoji to help with formatting, feels good.</p>
-    </div>
-    <div id="right"></div>
-  </div>
-  <div id="footer"></div>
+  <p>it's nice to have a proper website for our changelog for a change! (hehe) <img src="./blobs/blobcheerful.png"class="blob" /></p>
+  <p>no 2000 character limit, no need to use tricks like the <span class="inline">:nothing:</span> emoji to help with formatting..</p>
+  <p>anyhow!</p>
+  <p>for right this moment, this page is just a demo.</p>
+  <p>There will be a full feature length changelog going into detail about everything here when the update is live. Til then, hold tight!</p>
 </body>
 
 </html>
