@@ -54,7 +54,7 @@ body {
   font-size: 20px;
   font-weight: 400;
 }
-p, .generic {
+p, .generic, ul {
   margin-bottom: 13px;
   margin-top: 13px;
 }
@@ -100,6 +100,7 @@ a:focus, a:active {
 .differentiated {
   background-color: #36393F;
   border-radius: 3px;
+  padding: 10px;
 }
 .inline {
   display: inline-block;
@@ -113,4 +114,48 @@ a:focus, a:active {
 .date {
   font-family: monospace,monospace;
   letter-spacing: initial;
+}
+.tableofcontents {
+  background: #242424 none repeat scroll 0 0;
+  border: 1px solid #343434;
+  display: table;
+  width: auto;
+  max-width: 700px;
+  padding: 16px;
+  border-radius: 2px;
+}
+.tabletitle {
+  text-align: center;
+}
+.tableofcontents ul {
+  padding: 0;
+}
+.tableofcontents li, .tableofcontents ul, .tableofcontents ul li{
+  list-style: outside none none;
+}
+.tableofcontents ul li ul {
+  margin-left: 32px;
+}
+.tableofcontents ul li ul li {
+  list-style-type: disc;
+}
+.channel, .role {
+  color: #7289da;
+  background-color: rgba(114,137,218,.1);
+  border-radius: 2px;
+  padding: .1em;
+  margin: -.1em 0;
+}
+.channel:hover {
+  color: #fff;
+  background-color: rgba(114,137,218,.7);
+}
+.image {
+  background: #242424 none repeat scroll 0 0;
+  border: 1px solid #565656;
+  border-radius: 4px;
+  max-width: 100%;
+}
+.hidden {
+  display: none;
 }

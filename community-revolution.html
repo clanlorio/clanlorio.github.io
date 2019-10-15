@@ -50,25 +50,123 @@
   <link rel="stylesheet" href="./basic.css">
   <link rel="stylesheet" href="./crafting.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <title>The Community Revolution Update</title>
+  <title>Community Revolution</title>
   <meta name="author" content="https://github.com/06000208">
-  <meta name="description" content="The Community Revolution Update">
-  <base href="https://clanlorio.github.io/">
+  <meta name="description"
+    content="An update focused around bringing our community forward and making things a whole lot more lively!">
+  <meta name="theme-color" content="#AAAAAA" />
+  <meta property="og:title" content="The Community Revolution Update" />
+  <meta property="og:url" content="https://clanlorio.github.io/community-revolution" />
+  <meta property="og:audio" content="http://example.com/bond/theme.mp3" />
+  <meta property="og:description"
+    content="An update focused around bringing our community forward and making things a whole lot more lively!" />
+  <meta property="og:site_name" content="Clan Lorio" />
+  <!-- <base href="https://clanlorio.github.io/"> -->
 </head>
 
 <body>
-  <div class="space-between">
+  <div class="space-between differentiated">
     <h2>The Community Revolution Update</h2>
-    <span class="date">2019/10/10<br>yyyy/mm/dd</span>
+    <span class="date">2019/10/14<br>yyyy/mm/dd</span>
   </div>
-  <p>it's nice to have a proper website for our changelog, for a change, hehe! <img src="./blobs/blobcheerful.png" class="blob" /></p>
-  <p>no 2000 character limit, no need to use tricks like the <span class="inline">:nothing:</span> emoji to help with formatting..</p>
-  <p>anyhow!</p>
-  <p>for right now, this page is just a demo.</p>
-  <p>try resizing the page! it's responsive to being below 700 pixels in width</p>
-  <p>there will be a full feature length changelog going into detail about everything here when the update is live. til then, hold tight!</p>
-  <p>heres a teaser regarding two new recipes:</p>
-  <div class="generic differentiated">
+  <p>It's nice to have a proper website for our changelog, for a change, hehe! <img src="./blobs/blobcheerful.png" class="blob" /></p>
+  <p>No 2000 character limit, no need to use tricks like the <span class="inline">:nothing:</span> emoji to help with formatting...</p>
+  <p>Anyhow, welcome! This page goes into great detail about the new features for our community and what I've been working on for the past few weeks, hope you enjoy!</p>
+  <div class="tableofcontents">
+    <p class="tabletitle">Table Of Contents</p>
+    <ul>
+      <li><a href="#steam">"Lorio" and our Steam Group!</a></li>
+      <li>New discord stuff!</li>
+      <li>
+        <ul>
+          <li><a href="#events">Events System!</a></li>
+          <li><a href="#motd"><span class="channel">#message-of-the-day</span></a></li>
+          <li><a href="#vc">Voice Channel Notifs</a></li>
+          <li><a href="#roles">Server Overhaul and Pronoun Roles</a></li>
+          <li><a href="#emojis">Everyone can add emojis</a></li>
+        </ul>
+      </li>
+      <li><a href="#minecraft">Regarding our minecraft server</a></li>
+      <li>
+        <ul>
+          <li><a href="#phantoms">🦀 Phantoms Have Been Nerfed 🦀</a></li>
+          <li><a href="#crafting">Two new crafting recipes</a></li>
+          <li><a href="#spawn">/spawn</a></li>
+          <li><a href="#tele">An unexpected new plugin :O</a></li>
+          <li><a href="#updated">Updated a whole load of stuff</a></li>
+        </ul>
+      </li>
+      <li><a href="#endnotes">Some notes to end on</a></li>
+    </ul>
+  </div>
+
+  <h2 id="steam" class="differentiated">"Lorio" and our Steam Group!</h2>
+  <p>First off, we now have a steam group!</p>
+  <p><a href="https://steamcommunity.com/groups/lorio">https://steamcommunity.com/groups/lorio</a></p>
+  <p>You might be wondering what lorio is. It's the name I settled on for everything public facing regarding our group, as It wasn't taken on steam, as you can see. It's wonderfully simple, just like our private name is.</p>
+  <p>I intend on making full use of the steam group, and particularly, the steam group chat. We already have 2~ members that can only be found there, and not on our discord.</p>
+  <p>Please take the opportunity to include a link to your steam profile in your <span class="channel">#introductions</span> post, noparsed by incasing the link inside &lt; and &gt;, like this: <span class="inline">&lt;https://example.com&gt;</span></p>
+  <p>Or you could @ me with it in <span class="channel">#general-chat</span>, your choice.</p>
+  <p>Anyone who does ether will get an invite to the steam group & the steam group chat</p>
+
+  <h2 id="events" class="differentiated">Events System!</h2>
+  <p>The events system was designed from the ground up to aid tona in progressing as a community, offering an easy to use way to schedule, rsvp, and announce, all sorts of events!</p>
+  <p>Everyone is able to create events. When an event is first scheduled, a preview is posted to <span class="channel">#upcoming-events</span></p>
+  <p>People can use <span class="inline">:checkmark:</span> to rsvp, basically a way to confirm your attendance.</p>
+  <p>When the scheduled date is reached, an announcement is posted to <span class="channel">announcements</span>, mentioning those who rsvp'd!</p>
+  <p>This allows us to easily plan events in advance!</p>
+  <p>Use the following commands over in <span class="channel">#use-bots-here</span>, which, notably, has message history disabled.</p>
+  <p><span class="inline">!event</span> or <span class="inline">!e</span> - Starts the process of creating an event, the !e alias can be used for the following as well</p>
+  <p><span class="inline">!event template</span> or <span class="inline">!event templates</span> - Lists all the templates</p>
+  <p><span class="inline">!event template &lt;name&gt;</span> - Shows you a demo of a particular template. For the demo's description, It uses a randomly selected samuel l jackson quote with only text from samuel's side, so it reads like a deranged nonsense paragraph, and serves as a suitable placeholder. samuel l lipsum!</p>
+
+  <h2 id="motd" class="differentiated"><span class="channel">#message-of-the-day</span></h2>
+  <p>message of the day, or motd, is a pretty good idea that drives daily activity and keeps people interested. However, It had some flaws, particularly that lots of potential motds would get missed and forgotten about, and that it was possible for us to miss days. It was also not the best in regards to consistency.</p>
+  <p>All of that changes today!</p>
+  <p>You can now post to <span class="channel">#submit-motds</span>, and your motd will be put in a queue. When it's time for a new motd, which happens every 11am US central time, it'll be relayed!</p>
+  <p>This way, people can always send motds as soon as they think of them and all of them will get used, in order.</p>
+  <p>It also means it will be much easier to avoid missing a day.</p>
+  <p>If you edit the message you've sent to <span class="channel">#submit-motds</span>, if it's before its been used, the bot will acknowlege and update it's version of your message.</p>
+  <p>If you delete your message, the bot will remove it from the queue and it won't get relayed.</p>
+  <p>Be warned though, that <span class="channel">#submit-motds</span> has message history disabled, so if you toss an motd in, after you reload or refresh your client, you won't be able to edit or delete it anymore!</p>
+  <p>If that happens you can still ask me to remove it and I will.</p>
+  <h4 id="vc" class="differentiated">Voice Channel Notifs</h4>
+  <p>Pretty self explainatory, they get sent in <span class="channel">#general-chat</span></p>
+  <p><img class="image" src="./images/voice-chat-notifs.png"></p>
+
+  <h4 id="roles" class="differentiated">Server Overhaul and Pronoun Roles</h4>
+  <p>I've overhauled the channels, roles, and categories, and made the member list look nicer!</p>
+  <p>Additonally, I've added several roles you can add to yourself to indicate your pronouns, pretty self explainatory:</p>
+  <p><span class="role">@! any pronouns</span></p>
+  <p><span class="role">@! they/them</span></p>
+  <p><span class="role">@! she/her</span></p>
+  <p><span class="role">@! he/him</span></p>
+  <p>Everyone is still free to make & edit their color role as they see fit.</p>
+
+  <h2 id="emojis" class="differentiated">Everyone can add emojis</h2>
+  <p>Exactly what it says on the tin! Add any you want!</p>
+
+  <h2 id="minecraft" class="differentiated">Regarding our minecraft server</h2>
+  <p>Most if not all of you have noticed that minecraft hasn't been up regularly in over a week.</p>
+  <p>This was because it had started to stagnate, as most people had reached end game, and didn't have much to do.</p>
+  <p>The minecraft server has returned with this update, and will start being brought up regularly again!</p>
+  <p>This won't be every single day, as to allow events to take some measure of focus, but I'm definitely keeping it around!</p>
+  <p>I also wish to express why I, personally, won't lose interest in the minecraft server or playing on it:</p>
+  <p>When I very first conceptualized the minecraft server, It was because I wanted a safe place to play minecraft, and I wanted a multiplayer enviroment where I would be free to sink time into making works of art: banners, giant builds and cities beyond your wildest dreams, statues, pixel art, map art, etc</p>
+  <p>In pursuit of that goal one of the projects I'm building on mc rn is a highway to build all of those kinds of art along, to see as you walk down it.</p>
+  <p>Everyone will be welcome to contribute!</p>
+  <p>I do, of course, recognize that the community needs to evolve and expand to further itself and that is my goal with this update.</p>
+  <p>Enjoy!</p>
+  <h2 id="phantoms" class="differentiated">🦀 Phantoms Have Been Nerfed 🦀</h2>
+  <p>Phantoms no longer grow larger the longer you go without sleeping.</p>
+  <p>Additionally, they have been statistically nerfed.</p>
+  <p>They still spawn, however.</p>
+  <p>It's no longer the end of the world, it's revolution! For our community and against the phantoms!</p>
+
+  <h2 id="crafting" class="differentiated">Two new crafting recipes</h2>
+  <p>Two new crafting recipes! One for vanilla player heads, and the other, a quicker but simultaneously time consuming method for obsidian.</p>
+  <p>Hover over the items or resize this page width-wise to see some neat website design!</p>
+  <div class="generic">
     <div class="crafting">
       <span>Crafting</span>
       <div class="crafting-table">
@@ -130,6 +228,30 @@
       </div>
     </div>
   </div>
+  <p>If you have any crafting recipe ideas, feel free to suggest them / toss them my way!</p>
+
+  <h2 id="spawn" class="differentiated">/spawn</h2>
+  <p>As was conducted in the feedback form, I asked your opinion on /spawn</p>
+  <p>It's in, and ya'll can use it.</p>
+  <p>I decided to go ahead and let people use it because I want spawn to become a central hub, with roads, and because of the artistic projects I mentioned earlier.</p>  
+  
+  <h2 id="tele" class="differentiated">An unexpected new plugin :O</h2>
+  <p>OtherAnimalTeleport is a plugin that allows you to teleport animals alongside you, if they're leashed and within a certain radius, or if they're tamed/considered your pet, they'll teleport with you without needing a lead, if they're within range.</p>
+  
+  <h2 id="updated" class="differentiated">Updated a whole load of stuff</h2>
+  <p>I updated the server and various plugins! this section is just here if you want to know those version numbers for some reason.</p>
+  <p>papermc from 186 to 209</p>
+  <p>essentialsx main, chat, and protect, from v2.17.1.15 to v2.17.1.17</p>
+  <p>guilds from 3.5.3.1 to 3.5.3.4</p>
+  <p>SAML from 1.3.5 to 2.0.0</p>
+  <p>placeholder api from 2.10.3 to 2.10.4</p>
+  <p>limitpillagers from 2.6.0 to 2.9.0</p>
+  
+  <h2 id="endnotes" class="differentiated">Some notes to end on</h2>
+  <p>One of the first events I'm going to make is for unturned: We could totally run our own, private, unturned server, much like #tona-mc, but I want us to band together as a clan and play on a public server not controlled by us!</p>
+  <p>Another event is something I'm going to be running weekly, on friday nights! It will be announced when it's ready, and I'm really excited for it!</p>
+  <p>I hope you see you around, signed,</p>
+  <p>~ amber</p>
 </body>
 
 </html>
