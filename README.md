@@ -1,6 +1,6 @@
 # lorio
 
-a gated community's website, mostly for changelogs and the like.
+a gated community's website, mostly for change logs and the like.
 
 homepage ([clanlorio.github.io](https://clanlorio.github.io)) simply redirects to our [steam group](https://steamcommunity.com/groups/lorio).
 
@@ -27,9 +27,9 @@ The skull icon was manually recreated from the [minecraft](minecraft.net)'s [fon
 
 <img src="https://clanlorio.github.io/assets/skull.png" width="16px" alt=":skull:" title=":skull:">
 
-### An idea, minecraft-textures, and a font file walk into a bar..
+### An idea, minecraft-textures, and a font file walk into a bar...
 
-Credit goes to [destruc7i0n](https://github.com/destruc7i0n) for..
+Credit goes to [destruc7i0n](https://github.com/destruc7i0n) for:
 
 * The idea behind recreating minecraft's crafting in html/css for the purpose of displaying crafting recipes. To be specific, the "Crafting Area" section on [crafting.thedestruc7i0n.ca](https://crafting.thedestruc7i0n.ca/)
 
